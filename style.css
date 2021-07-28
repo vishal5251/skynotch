@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.carousel {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.carousel img {
+    height: 500px;
+    width: 100%
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.fa-chevron-left {
+    position: absolute;
+    top: 45%;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color: #565555;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color: #565555;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+.carousel .row {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel .row img {
+    height: 90px;
+    width: 90px;
+}
+
+.specs {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 30px;
+    line-height: 25px;
+}
+
+.specs h1,h2 {
+    color: #1E1E1E;
+}
+
+.specs h4,p,span {
+    color: #565555;
+    font-family: sans-serif;
+}
+
+.specs .feedback .stars span {
+    color: #00D19B;
+}
+
+.cart-buttons {
+    margin: 10px auto;
+}
+
+.cart-buttons button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    border: none;
+}
+
+.add-to-cart {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.add-to-wishlist {
+    background-color: white;
+    color: #565555;
+    border: 1.5px solid #565555 !important;
+}
+
+.cards {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+.cards .card-title {
+    display: flex;
+    align-items: center;
+}
+
+.cards .card-title span {
+    margin-right: 20px;
+}
+
+.fa-money,.fa-truck,.fa-ban {
+    font-size: 40px;
+}
+
+.cards p {
+    margin-left: 60px;
+}
